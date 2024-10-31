@@ -1,0 +1,101 @@
+/**
+ * Welcome Page
+ */
+@font-face {
+    font-family: 'Inconsolata';
+    src: url('../fonts/Inconsolata-Regular.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Inconsolata';
+    src: url('../fonts/Inconsolata-Bold.ttf');    
+    font-weight: bold;
+    font-style: normal;
+}
+
+#wpcontent {
+    background-image: url(../images/welcome_bg.jpg);
+    background-size: cover;    
+    padding-left: 0;
+    position: absolute;
+    top: 0px;    
+    width: 100%;
+    margin-left: 0px !important;
+}
+
+#plytix_welcome {
+    font-family: "Inconsolata", monospace;
+    color: #FFFFFF;
+}
+
+#plytix_welcome .header {
+    position:relative;
+    text-align: center;
+    padding:30px 0px 0 ;
+}
+
+#plytix_welcome .header .logo {
+    margin: 80px 0px 40px 0px;
+    position: relative;    
+    text-align: center;
+    background: none;
+    width: auto;
+}
+
+#plytix_welcome .actions {
+    margin: 0px;
+    text-align: center;
+}
+
+#plytix_welcome .btn {
+    color: #FFFFFF;
+    background: none;
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    padding: 10px 16px;
+}
+
+#plytix_welcome .btn:hover {
+    background: #FFFFFF;
+    color: #333333;
+}
+
+#plytix_welcome .return-to-settings {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+
+#plytix_welcome div p {
+    text-align: center;
+    font-size: 18px;
+}
+
+#plytix_welcome .info {
+    max-width: 900px;
+    margin: 0 auto; 
+}
+
+
+#plytix_welcome .info p {
+    font-size: 32px;
+    margin-bottom: 30px;
+    margin-top: 5px;            
+    font-weight: bold;
+}
+
+#plytix_welcome .make_sign {
+    color: #FFFFFF !important;
+}
+
+#plytix_welcome .start_plytix {
+    max-width: 600px;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 32px;
+}
